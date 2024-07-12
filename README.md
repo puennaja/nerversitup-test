@@ -2,16 +2,17 @@
 
 ## code latest structure
 
+```
 .
 └── Project/
-├── cmd/  
-│ ├── cmds/  
-│ │ ├── rest.go  
-│ │ └── root.go  
+├── cmd/
+│ ├── cmds/
+│ │ ├── rest.go
+│ │ └── root.go
 │ └── main.go
-├── config/  
+├── config/
 │ └── config.go
-├── infrastructure/  
+├── infrastructure/
 │ ├── mongodb.go
 │ ├── redis.go
 │ └── ...
@@ -62,6 +63,7 @@
 │ ├── http.go
 │ └── ...
 └── .env
+```
 
 ## code latest struct convention
 
